@@ -1,0 +1,162 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #f8f8f8; /* Light background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-img {
+    height: 60px;
+    margin-right: 1rem;
+  }
+  
+  .logo-text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logo-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333; /* Darker text */
+    margin: 0;
+  }
+  
+  .logo-subtitle {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #666;
+    margin: 0;
+  }
+  
+  .naac-logo {
+    height: 45px;
+    margin-left: 1rem;
+  }
+  
+  .navbar-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .links-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .links-list li {
+    margin: 0 0.8rem;
+  }
+  
+  .links-list a {
+    text-decoration: none;
+    color: #444;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+  }
+  
+  .links-list a:hover {
+    color: #e9923a; /* Highlight on hover */
+  }
+  
+  .lpu-tag {
+    border: 1px solid #ddd;
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    color: #555;
+    border-radius: 4px;
+  }
+  
+  .navbar-main {
+    display: flex;
+    align-items: center;
+  }
+  
+  .main-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-links li {
+    margin: 0 1rem;
+  }
+  
+  .main-links a {
+    text-decoration: none;
+    color: #444;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .main-links a:hover {
+    color: #e9923a;
+  }
+  
+  .search-box {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+  }
+  
+  .search-input {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    font-size: 0.9rem;
+  }
+  
+  .search-button {
+    background-color: #e9923a;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  .apply-button {
+    background-color: #e9923a;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    margin-left: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .apply-button:hover {
+    background-color: #d17d29; /* Darker orange on hover */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-links, .navbar-main {
+      margin-top: 1rem;
+    }
+  
+    .main-links {
+      flex-wrap: wrap;
+    }
+  
+    .main-links li {
+      margin: 0.5rem;
+    }
+  }
